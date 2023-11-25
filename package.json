@@ -1,0 +1,33 @@
+{
+  "name": "fathin-blog",
+  "version": "1.0.0",
+  "description": "A Fathin's Blog for his notes",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsc index.ts && node index.js",
+    "start": "tsc index.ts models/post.ts && node index.js"
+  },
+  "keywords": [
+    "blog",
+    "fathin"
+  ],
+  "author": "M.Fathin Halim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "imagekit": "^4.1.4",
+    "mongoose": "latest",
+    "dotenv": "latest",
+    "multer": "^1.4.5-lts.1",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "engines" : { 
+    "npm" : ">=8.0.0 <9.0.0",
+    "node" : ">=16.0.0 <17.0.0"
+  }
+}
